@@ -11,7 +11,7 @@ Board::Board()
 void Board::show()
 {
 	int a = -1, b = 9;
-	for (int i=0; i<81; i++, b++)
+	for (int i=0 ; i<81 ; i++, b++)
 	{
 		if (!( i % 3))	{ printf(" ");	a++;	b-=3; }
 		if (!( i % 9))	{ printf("\n"); a-=3;	b+=3; }
