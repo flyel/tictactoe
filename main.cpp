@@ -1,5 +1,6 @@
 #include <iostream>
 #include <time.h>
+#include <stdlib.h>
 #include "Board.h"
 
 int main(int argc, const char * argv[]) 
